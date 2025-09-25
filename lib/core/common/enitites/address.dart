@@ -32,5 +32,7 @@ class Address extends Equatable {
       country = 'Test String';
 
   @override
-  List<Object?> get props => [street, apartment, city, postalCode, country];
+  List<Object?> get props {
+    return [street, apartment, city, postalCode, country];
+  }
 }

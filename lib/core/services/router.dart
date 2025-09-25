@@ -6,6 +6,7 @@ import 'package:ecom/src/dashboard/presentation/views/dashboard_screen.dart';
 import 'package:ecom/src/home/presentation/views/home_screen.dart';
 import 'package:ecom/src/on_boarding/presentation/views/on_boarding_creen.dart';
 import 'package:ecom/src/on_boarding/presentation/views/splash_screen.dart';
+import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 
 part 'router.main.dart';

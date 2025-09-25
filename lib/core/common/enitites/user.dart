@@ -1,4 +1,6 @@
+// ignore_for_file: public_member_api_docs, sort_constructors_first
 import 'package:ecom/core/common/enitites/address.dart';
+import 'package:ecom/src/wishlist/domain/entities/wishlist_product.dart';
 
 class User {
   final String id;
@@ -7,6 +9,7 @@ class User {
   final bool isAdmin;
   final List<WishlistProduct> wishlist;
   final Address? address;
+
   final String? phone;
 
   User({
@@ -31,5 +34,3 @@ class User {
   @override
   List<Object?> get props => [id, name, email, isAdmin, wishlist.length];
 }
-
-class WishlistProduct {}

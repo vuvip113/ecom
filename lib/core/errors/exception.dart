@@ -2,7 +2,7 @@ import 'package:equatable/equatable.dart';
 
 class ServerException extends Equatable implements Exception {
   final String massage;
-  final String statusCode;
+  final int statusCode;
 
   const ServerException({required this.massage, required this.statusCode});
 
